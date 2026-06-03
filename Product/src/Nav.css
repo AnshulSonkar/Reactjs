@@ -1,0 +1,12 @@
+#box{
+    
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+    color: antiquewhite;
+    padding: 40px;
+}

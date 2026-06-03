@@ -121,4 +121,39 @@
 
 
 // export default App
+import React from 'react'
+import Home from './Home'
+import {New} from './Home'
 
+// const App = () => {
+//   return (
+//     <>
+//     <div>App</div>
+//     <Home/>
+//     </>
+//   )
+// }
+
+// export default App 
+
+// App->Home->A->B->C
+
+// google.com/insta
+
+import React from 'react';
+import './nav.css'
+const Navbar = () => {
+  return (
+    <nav className="navbar">
+      <h2 className="logo">My App</h2>
+
+      <ul id='nav'>
+        <li>Home</li>
+        <li>About</li>
+        <li>Task</li>
+      </ul>
+    </nav>
+  );
+};
+
+export default Navbar;

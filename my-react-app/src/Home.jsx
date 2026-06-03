@@ -1,11 +1,18 @@
-import { memo } from 'react';
+import React from 'react'
 
 const Home = () => {
   return (
-    <div>
-      <h2>Home</h2>
-    </div>
-  );
-};
+    <div>Home</div>
+  )
+}
+const New = () => {
+    return (
+        <div>neWW fileeeee</div>
+    )
+    
+}
+    
 
-export default memo(Home);
+
+export {New}
+export default Home;
