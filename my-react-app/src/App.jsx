@@ -140,20 +140,20 @@ import {New} from './Home'
 
 // google.com/insta
 
-import React from 'react';
-import './nav.css'
-const Navbar = () => {
-  return (
-    <nav className="navbar">
-      <h2 className="logo">My App</h2>
+// import React from 'react';
+// import './nav.css'
+// const Navbar = () => {
+//   return (
+//     <nav className="navbar">
+//       <h2 className="logo">My App</h2>
 
-      <ul id='nav'>
-        <li>Home</li>
-        <li>About</li>
-        <li>Task</li>
-      </ul>
-    </nav>
-  );
-};
+//       <ul id='nav'>
+//         <li>Home</li>
+//         <li>About</li>
+//         <li>Task</li>
+//       </ul>
+//     </nav>
+//   );
+// };
 
-export default Navbar;
+// export default Navbar;
